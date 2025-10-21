@@ -1,50 +1,79 @@
-# Welcome to your Expo app 👋
+# 💰 Aplicativo de Controle Financeiro Pessoal
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## 👤 Nome do Aluno
+**Arthur Henrique Pereira**
 
-## Get started
+## 💻 Unidade Curricular
+**Codificar Aplicações para Dispositivos Móveis**
 
-1. Install dependencies
+---
 
+## 📱 Descrição do Funcionamento do Aplicativo
+
+O aplicativo de **Controle Financeiro Pessoal** foi desenvolvido com o objetivo de ajudar o usuário a **organizar suas finanças** de forma simples e prática.  
+Ele permite **registrar receitas e despesas**, **anexar comprovantes**, e **acompanhar um resumo financeiro visual** através de gráficos dinâmicos.
+
+As principais funcionalidades incluem:
+
+- 🔐 **Login e cadastro de usuário** com autenticação via **Supabase**.  
+- 📊 **Dashboard financeiro** exibindo:
+  - Saldo atual (receitas - despesas)
+  - Gráfico de receitas e despesas mensais
+  - Destaques como “maior despesa” ou “categoria mais usada”
+- 💸 **Cadastro de receitas e despesas** com valor, categoria, data, descrição e comprovante.
+- 🗂️ **Gerenciamento de categorias** (ex: alimentação, lazer, salário, etc.)
+- 📅 **Listagem de lançamentos** com filtros por data, tipo e categoria.
+- 📱 **Design responsivo** e interface intuitiva, compatível com diferentes tamanhos de tela.
+
+---
+
+## 🖼️ Prints das Principais Telas
+
+### Tela de Login
+![Login](./assets/prints/login.png)
+
+### Dashboard
+![Dashboard](./assets/prints/dashboard.png)
+
+### Cadastro de Receita
+![Cadastro de Receita](./assets/prints/cadastro-receita.png)
+
+### Cadastro de Despesa
+![Cadastro de Despesa](./assets/prints/cadastro-despesa.png)
+
+---
+
+## ⚙️ Tecnologias Utilizadas
+
+- **Expo** → Facilita o desenvolvimento e testes em dispositivos móveis.  
+- **React Native** → Framework principal da aplicação.  
+- **Supabase** → Autenticação e banco de dados.  
+- **victory-native** → Exibição dos gráficos financeiros.
+
+---
+
+## 🚀 Instruções para Instalação e Execução
+
+### Pré-requisitos
+- Node.js instalado  
+- Expo CLI instalada (`npm install -g expo-cli`)  
+- Conta no Supabase com projeto configurado  
+- Variáveis de ambiente com as chaves do Supabase (se aplicável)
+
+### Passo a passo
+1. **Clone o repositório**
    ```bash
+   git clone https://github.com/SEU_USUARIO/controle-financeiro.git
+
+2. **Acesse o diretório**
+   cd controle-financeiro
+3. **Instale as dependências**
    npm install
-   ```
-
-2. Start the app
-
-   ```bash
+4. **Inicie o projeto**
    npx expo start
-   ```
+5. **Execute no seu dispositivo**
+   Escaneie o QR Code no terminal com o app Expo Go
+   Ou pressione "a" para abrir no emulador Android
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+   🏁 **Conclusão**
+   O aplicativo cumpre o propósito de auxiliar no controle financeiro pessoal, proporcionando uma experiência prática e intuitiva, com recursos visuais e categorização inteligente das finanças do usuário.
