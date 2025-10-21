@@ -29,17 +29,10 @@ As principais funcionalidades incluem:
 
 ## 🖼️ Prints das Principais Telas
 
-### Tela de Login
-![Login](./assets/prints/login.png)
+<img width="351" height="639" alt="image" src="https://github.com/user-attachments/assets/babcacdf-4755-41e2-801f-298e802704e2" />
+<img width="353" height="634" alt="image" src="https://github.com/user-attachments/assets/a9362d64-87b0-4c87-b57a-313a2376c6f9" />
+<img width="467" height="750" alt="image" src="https://github.com/user-attachments/assets/e8047a8a-d44c-4694-b0b5-3319ec6cd2c1" />
 
-### Dashboard
-![Dashboard](./assets/prints/dashboard.png)
-
-### Cadastro de Receita
-![Cadastro de Receita](./assets/prints/cadastro-receita.png)
-
-### Cadastro de Despesa
-![Cadastro de Despesa](./assets/prints/cadastro-despesa.png)
 
 ---
 
